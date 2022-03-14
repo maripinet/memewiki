@@ -1,0 +1,78 @@
+
+p {
+	font-size: 16px;
+}
+
+h1  {
+	background-color: #FF00D8;
+	color: #36FF00;
+	font-size: 40px;
+}
+
+h2 {
+	background-color: #36FF00;
+	color: #FF00D8;
+	font-size: 16px;
+}
+strong {
+	color: #FF00D8;
+	font-weight: normal;
+}
+
+	html {
+			cursor: url('hand.png'), default;
+		}
+
+    body {
+      background-color: black;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      color: #36FF00;
+    }
+
+		canvas { pointer-events: none; }
+
+    .sidenav {
+      /* posicao e confs navbar */
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-image: url('sparkle.gif');
+      overflow-x: hidden;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      /* conf texto */
+      padding: 6px 6px 6px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #FF00D8;
+      display: block;
+    }
+ /* se eu passa o mouse em cima da barra ele muda*/
+    .sidenav a:hover {
+			cursor: url('disco.png'), pointer;
+      color: #FF00D8;
+      background-color: #36FF00;
+    }
+    
+    .sidenav a {
+        font-size: 16px;
+      }
+    }
+
+ /* aaaaaaaaaa*/
+    .main {
+      margin-left: 200px;
+      
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      
